@@ -1,0 +1,63 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+        background-color: darkred;
+    }
+
+    #header {
+        width: 100%;
+        height: 150px; /* Altura mínima para que se vea */
+        background-image: url(./img/EL\ PORTAL\ INFORMATICO.png);    
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que se repita */
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+
+
+    div nav ul {
+        display: block;
+        list-style: none;
+        text-align: center;
+        font-size: 48px;
+        
+    }
+
+    div nav ul li a {
+        background-color: darkred;
+        color: azure;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    div nav ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    div nav ul li a:hover {
+        background-color: blue;
+    }
+
+    div nav ul li:hover>ul {
+        display: block;
+    }
+
+    div nav ul li {
+        position: relative;
+    }
+
+
+    div nav ul>li {
+        float: left;
+
+    }
