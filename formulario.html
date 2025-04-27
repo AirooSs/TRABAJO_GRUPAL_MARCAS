@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>¡CONTACTA CON NOSOTROS!</h1>
+    </header>
+    
+    <form action="">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="Nombre" class="block">Nombre:</label>
+            <input type="text">
+            <label for="Apellidos" class="block">Apellidos:</label>
+            <input type="text">
+            <label for="Direccion" class="block">Ciudad:</label>
+            <input type="text" placeholder="Ciudad" class="margintop0">
+            <label for="Nick" class="block">Nick:</label>
+            <input type="text">
+            <label for="email" class="block">Correo Electrónico:</label>
+            <input type="email"  placeholder="ejemplo@gmail.com" name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>SEXO</legend>
+            <input type="radio" name="sexo" value="Hombre"><label for="Hombre">Hombre</label>
+            <input type="radio" name="sexo" value="Mujer"><label for="Mujer">Mujer</label>
+            <input type="radio" name="sexo" value="Prefiero No Decir"><label for="Otro">Prefiero No Decir</label>
+        </fieldset>
+        <fieldset>
+            <label for="Fnac" class="fnac">Fecha nacimiento</label>
+            <input type="date" name="Fnac">
+        </fieldset>
+        <fieldset>
+            <legend>COMENTARIOS</legend><br>
+            <textarea name="Comentarios" rows="8" placeholder="Escribe aquí el motivo de contacto o la noticia que quieras compartir"></textarea>
+        </fieldset>
+        <input type="submit" value="ENVIAR" class="button">
+        <input type="reset" value="BORRAR" class="button">
+        <input type="file" value="ENVIAR" class="button" accept=".jpg, .png, .pdf">
+    </form>
+
+</body>
+</html>
